@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link href="{{ "/assets/css/lightbox.min.css" | relative_url }}" rel="stylesheet">
+    <title>{{ page.title }} :: {{ site.title}}</title>
+</head>
+    <body>            
+        {%- include my_header.html -%}
+
+        <div class="wrapper">
+            <section>
+                <div id="title">
+                    <h1>{{ site.title }}</h1>
+                    <p>{{ page.title }}</p>
+                    <hr>
+                    <!--<span class="credits left"><a href="{{ site.github.owner_url }}">View Github account</a></span>-->
+
+                    <span class="credits left">This site is built with <a href="https://jekyllrb.com/">Jekyll</a> using a theme based on the <a href="https://github.com/pages-themes/midnight">Midnight theme</a></span>
+
+                    <span class="credits right">&copy; 2019</span>
+                </div>
+        
+                {{ content }}            
+            </section>
+        </div>
+
+        <script src="{{ "/assets/js/lightbox-plus-jquery.min.js" | relative_url }}"></script>
+    </body>
+</html>
