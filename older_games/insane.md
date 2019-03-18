@@ -25,7 +25,7 @@ These are some interesting features as part of the game which at the time were q
 - Auto saving and many other game options
 
 ## Download
-[Download Demo 1.1](../../assets/Insane.exe)
+[Download Demo 1.1](../../assets/downloads/Insane.exe)
 This was released on January 1, 2011.
 
 Note: This no longer seems work on the latest version of Windows. Can still be run in a Windows 7 or 8 VM. Videos will be recorded of a playthrough at some point.
